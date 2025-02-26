@@ -7,4 +7,5 @@ def yildiz_ucgen_ciz(satirSayisi):
         print ("*" * satir+" "*(satirSayisi-satir)*2+"*" * satir)
 
 
-yildiz_ucgen_ciz(8)
+ss=int(input("Satır sayısını giriniz:"))
+yildiz_ucgen_ciz(ss)
