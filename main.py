@@ -7,5 +7,5 @@ def yildiz_ucgen_ciz(satirSayisi):
         print ("*" * satir+" "*(satirSayisi-satir)*2+"*" * satir)
 
 
-ss=int(input("Satır sayısını giriniz:"))
-yildiz_ucgen_ciz(ss)
+line=int(input("Satır sayısını giriniz:"))
+yildiz_ucgen_ciz(line)
